@@ -167,6 +167,8 @@ html{
 }
 .SubFooter h3{
     margin-bottom: -10px;
+    color: aqua;
+    font-size: 20px;
 }
 .mainFooter .SubFooter div{
     display: flex;
