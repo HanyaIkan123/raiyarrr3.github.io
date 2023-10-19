@@ -154,3 +154,36 @@ body{
     border-color: gray;
     border: 8px;
 }
+.mainFooter{
+    background-color: black;
+    color: white;
+    height: 300px;
+}
+html{
+    height: 100%;
+}
+.SubFooter a{
+    margin-top: 20px;
+}
+.SubFooter h3{
+    margin-bottom: -10px;
+}
+.mainFooter .SubFooter div{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.mainFooter .SubFooter a:hover{
+    text-decoration: underline;
+}
+.SubFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a:hover{
+    text-decoration: underline;
+}
